@@ -1,0 +1,29 @@
+/* CSS for UI design */
+
+.button {
+	-fx-background-color: black;
+	-fx-text-fill: white;
+	-fx-border-color: darkgrey;
+}
+
+.button:pressed {
+	-fx-background-color: darkgrey;
+	-fx-text-fill: black;
+}
+
+.pane {
+	-fx-background-color: black;
+}
+
+.label {
+	-fx-text-fill: white;
+}
+
+.text-field {
+	-fx-control-inner-background: "darkgrey";
+}
+
+.box {
+	-fx-background-color: transparent;
+	-fx-border-color: white;
+}
